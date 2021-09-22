@@ -1,0 +1,17 @@
+name: Version
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: JBTCD Release Action
+        uses: jbtcd/release-action@0.2.0
+        with:
+          current-version: 1.2.3

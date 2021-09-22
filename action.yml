@@ -4,13 +4,10 @@ branding:
   icon: activity
   color: orange
 inputs:
-  who-to-greet:
-    description: Who to greet
+  current-version:
+    description: Current version of the repository
     required: true
-    default: World
-outputs:
-  time:
-    description: The time we greeted you
+    default: 0.0.0
 runs:
   using: node12
   main: index.js

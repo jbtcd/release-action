@@ -4,18 +4,12 @@ A GitHub Action for auto tagging your repository.
 
 ## Inputs
 
-## `who-to-greet`
+### `current-version`
 
-**Required** The name of the person to greet. Default `"World"`.
-
-## Outputs
-
-## `time`
-
-The time we greeted you.
+**Required** The current version of this repository. Default 0.0.0
 
 ## Example usage
 
-uses: actions/hello-world-javascript-action@v1.1
+uses: jbtcd/release-action@0.2.0
 with:
-  who-to-greet: 'Mona the Octocat'
+  current-version: '1.0.0'

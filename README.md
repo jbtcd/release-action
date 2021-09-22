@@ -10,6 +10,8 @@ A GitHub Action for auto tagging your repository.
 
 ## Example usage
 
+```yaml
 uses: jbtcd/release-action@0.2.0
 with:
   current-version: '1.0.0'
+```
